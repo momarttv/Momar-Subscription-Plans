@@ -18,7 +18,7 @@ export default function Home() {
                     <Text style={styles.low}>What's in the basic plane </Text>
                     <Text style={styles.textTwo}>$10/month</Text>
 
-                        <Link href="" asChild>
+                        <Link href="../(paid)/BasicMonthly" asChild>
                             <Pressable style={styles.button}>
                                 <Text style={styles.buttonStyle}>Get start</Text>
                             </Pressable>
@@ -31,7 +31,7 @@ export default function Home() {
                     <Text style={styles.low}>What's in the standard plane </Text>
                     <Text style={styles.textTwo}>$20/month</Text>
 
-                        <Link href="" asChild>
+                        <Link href="../(paid)/StandardMonthly" asChild>
                             <Pressable style={styles.button}>
                                 <Text style={styles.buttonStyle}>Get start</Text>
                             </Pressable>
@@ -44,7 +44,7 @@ export default function Home() {
                     <Text style={styles.low}>What's in the Premium plane </Text>
                     <Text style={styles.textTwo}>$30/month</Text>
 
-                        <Link href="" asChild>
+                        <Link href="../(paid)/PremiumMonthly" asChild>
                             <Pressable style={styles.button}>
                                 <Text style={styles.buttonStyle}>Get start</Text>
                             </Pressable>
