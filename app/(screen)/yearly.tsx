@@ -4,15 +4,15 @@ import { View, Text, StyleSheet, ScrollView, Button, Pressable } from "react-nat
 export default function Home() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Pricing Plans</Text>
-            <Text style={styles.textN}>Choose a plan</Text>
-            <Text style={styles.textO}>Yearly</Text>
-            <Link href="(screen)/monthly" asChild>
-                <Pressable style={styles.button}>
-                    <Text style={styles.buttonStyleM}>Monthly</Text>
-                </Pressable>
-            </Link>
             <ScrollView>
+                <Text style={styles.title}>Pricing Plans</Text>
+                <Text style={styles.textN}>Choose a plan</Text>
+                <Text style={styles.textO}>Yearly</Text>
+                <Link href="(screen)/monthly" asChild>
+                    <Pressable style={styles.buttonM}>
+                        <Text style={styles.buttonStyleM}>Monthly</Text>
+                    </Pressable>
+                </Link>
                 <View style={styles.boxOne}>
                     <Text style={styles.text}>Basic</Text>
                     <Text style={styles.low}>What's in the basic plane </Text>
@@ -162,5 +162,14 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         justifyContent: "center",
         alignItems: "center",
+    },
+    buttonM: {
+        width: 200,
+        height: 30,
+        borderRadius: 20,
+        justifyContent: "center",
+        alignItems: "center",
+        color: "black",
+        marginLeft: 50,
     },
 })
